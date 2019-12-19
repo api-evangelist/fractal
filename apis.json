@@ -1,0 +1,36 @@
+{
+    "name": "Fractal",
+    "description": "<p>Fractal provides a presentation and transformation layer for complex data output, the like found in RESTful APIs, and works really well with JSON. Think of this as a view layer for your JSON\/YAML\/etc. When building an API it is common for people to just grab stuff from the database and pass it to json_encode(). This might be passable for &ldquo;trivial&rdquo; APIs but if they are in use by the public, or used by mobile applications then this will quickly lead to inconsistent output.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/fractal.png",
+    "tags": [
+        "data",
+        "have api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/fractal\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Fractal",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/fractal.png",
+            "humanURL": "http:\/\/fractal.thephpleague.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/fractal-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/fractal.thephpleague.com"
+        }
+    ]
+}
