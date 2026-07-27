@@ -1,8 +1,27 @@
 aid: fractal
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fractal.png
 name: Fractal
-description: Fractal is a company surfaced as a portfolio company of 8vc, a16z, multicoin-capital, paradigm
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Fractal Software (fractalsoftware.com) is a venture studio that partners with entrepreneurs
+  and investors to launch AI-driven vertical SaaS companies that transform how whole industries operate.
+  Rather than shipping a single product, Fractal functions as an incubator and holding company, standing
+  up sector-specific software startups across produce, healthcare, government, storage, distribution, and
+  security-services verticals, with more than $650M raised across its portfolio. As a venture studio it
+  exposes no public developer platform, API, SDKs, or documentation of its own; this profile captures its
+  identity, portfolio surface, and domain-security posture. Note the recorded x-backed-by (multicoin,
+  paradigm, a16z, 8vc) was surfaced via name-matching during portfolio ingestion and may conflate a
+  distinct crypto-era "Fractal"; the enriched identity below reflects the fractalsoftware.com venture
+  studio.
 url: https://raw.githubusercontent.com/api-evangelist/fractal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,11 +32,18 @@ x-backed-by:
 - paradigm
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-company-type: venture-studio
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Venture Studio
+- Vertical SaaS
+- Artificial Intelligence
+- Startups
+- Incubator
+- Enterprise Software
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +51,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fractal-domain-security.yml
 - type: Website
-  url: https://fractalsoftware.com
+  url: https://www.fractalsoftware.com
+- type: PrivacyPolicy
+  url: https://www.fractalsoftware.com/privacy
+- type: Portfolio
+  url: https://www.fractalsoftware.com/our-companies
+- type: Contact
+  url: https://www.fractalsoftware.com/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
